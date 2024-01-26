@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlaceOrder"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.629">
+  <properties />
+  
+  
+            <testcase name="test_click_orders" time="0.265" classname="com.simplilearn.testNg.PlaceOrder" />
+                <testcase name="test_getTitle_page" time="0.011" classname="com.simplilearn.testNg.PlaceOrder" />
+                <testcase name="test_login" time="0.353" classname="com.simplilearn.testNg.PlaceOrder" />
+      
+</testsuite>

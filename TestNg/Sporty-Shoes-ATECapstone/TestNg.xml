@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Registration">
+		<classes>
+			<class name="com.simplilearn.testNg.Registration"></class>
+		</classes>
+	</test>
+	
+	<test name="Login">
+		<classes>
+			<class name="com.simplilearn.testNg.LoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Homepage">
+		<classes>
+			<class name="com.simplilearn.testNg.HomePagee"></class>
+		</classes>
+	</test>
+	<test name="AddToCart">
+		<classes>
+			<class name="com.simplilearn.testNg.AddProductToCart"></class>
+		</classes>
+	</test>
+	<test name="PlaceOrder">
+		<classes>
+			<class name="com.simplilearn.testNg.PlaceOrder"></class>
+		</classes>
+	</test>
+</suite>

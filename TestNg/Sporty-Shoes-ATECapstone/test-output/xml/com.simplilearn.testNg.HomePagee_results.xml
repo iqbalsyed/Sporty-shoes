@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Homepage"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.939">
+  <properties />
+  
+  
+            <testcase name="test_click_register_link" time="1.867" classname="com.simplilearn.testNg.HomePagee" />
+                <testcase name="test_getTitle_page" time="0.014" classname="com.simplilearn.testNg.HomePagee" />
+                <testcase name="Test_Validate_Text_On_Page" time="0.058" classname="com.simplilearn.testNg.HomePagee" />
+      
+</testsuite>

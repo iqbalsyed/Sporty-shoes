@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.067">
+  <properties />
+  
+  
+            <testcase name="Test_validate_registration_Text" time="0.055" classname="com.simplilearn.testNg.LoginTest" />
+                <testcase name="test_getTitle_page" time="0.014" classname="com.simplilearn.testNg.LoginTest" />
+                <testcase name="test_click_cart" time="0.178" classname="com.simplilearn.testNg.LoginTest" />
+                <testcase name="test_login" time="0.820" classname="com.simplilearn.testNg.LoginTest" />
+      
+</testsuite>

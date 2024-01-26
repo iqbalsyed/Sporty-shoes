@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T12:41:09 IST" name="RestAssured Test" finished-at="2024-01-25T12:41:33 IST" duration-ms="23512">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T12:41:09 IST" name="Registration" finished-at="2024-01-25T12:41:17 IST" duration-ms="8024">
+      <class name="com.simplilearn.testNg.Registration">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:09 IST" name="start_browser" finished-at="2024-01-25T12:41:14 IST" duration-ms="5042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_click_register_link()[pri:49, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:14 IST" name="test_click_register_link" finished-at="2024-01-25T12:41:16 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_register_link -->
+        <test-method signature="test_getTitle_page()[pri:50, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:16 IST" name="test_getTitle_page" finished-at="2024-01-25T12:41:16 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_register_user()[pri:51, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:16 IST" name="Test_register_user" finished-at="2024-01-25T12:41:17 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_register_user -->
+        <test-method signature="Test_validate_registration_URL()[pri:52, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:17 IST" name="Test_validate_registration_URL" finished-at="2024-01-25T12:41:17 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_URL -->
+        <test-method signature="Test_validate_registration_Text()[pri:53, instance:com.simplilearn.testNg.Registration@4d910fd6]" started-at="2024-01-25T12:41:17 IST" name="Test_validate_registration_Text" finished-at="2024-01-25T12:41:17 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_Text -->
+      </class> <!-- com.simplilearn.testNg.Registration -->
+    </test> <!-- Registration -->
+    <test started-at="2024-01-25T12:41:17 IST" name="Login" finished-at="2024-01-25T12:41:20 IST" duration-ms="3052">
+      <class name="com.simplilearn.testNg.LoginTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.simplilearn.testNg.LoginTest@6d3a388c]" started-at="2024-01-25T12:41:17 IST" name="start_browser" finished-at="2024-01-25T12:41:19 IST" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login()[pri:49, instance:com.simplilearn.testNg.LoginTest@6d3a388c]" started-at="2024-01-25T12:41:19 IST" name="test_login" finished-at="2024-01-25T12:41:20 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_getTitle_page()[pri:50, instance:com.simplilearn.testNg.LoginTest@6d3a388c]" started-at="2024-01-25T12:41:20 IST" name="test_getTitle_page" finished-at="2024-01-25T12:41:20 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_validate_registration_Text()[pri:51, instance:com.simplilearn.testNg.LoginTest@6d3a388c]" started-at="2024-01-25T12:41:20 IST" name="Test_validate_registration_Text" finished-at="2024-01-25T12:41:20 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_Text -->
+        <test-method signature="test_click_cart()[pri:52, instance:com.simplilearn.testNg.LoginTest@6d3a388c]" started-at="2024-01-25T12:41:20 IST" name="test_click_cart" finished-at="2024-01-25T12:41:20 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_cart -->
+      </class> <!-- com.simplilearn.testNg.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2024-01-25T12:41:20 IST" name="Homepage" finished-at="2024-01-25T12:41:24 IST" duration-ms="3827">
+      <class name="com.simplilearn.testNg.HomePagee">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.simplilearn.testNg.HomePagee@6bedbc4d]" started-at="2024-01-25T12:41:20 IST" name="start_browser" finished-at="2024-01-25T12:41:22 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_getTitle_page()[pri:49, instance:com.simplilearn.testNg.HomePagee@6bedbc4d]" started-at="2024-01-25T12:41:22 IST" name="test_getTitle_page" finished-at="2024-01-25T12:41:22 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_Validate_Text_On_Page()[pri:50, instance:com.simplilearn.testNg.HomePagee@6bedbc4d]" started-at="2024-01-25T12:41:22 IST" name="Test_Validate_Text_On_Page" finished-at="2024-01-25T12:41:22 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_Text_On_Page -->
+        <test-method signature="test_click_register_link()[pri:51, instance:com.simplilearn.testNg.HomePagee@6bedbc4d]" started-at="2024-01-25T12:41:22 IST" name="test_click_register_link" finished-at="2024-01-25T12:41:24 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_register_link -->
+      </class> <!-- com.simplilearn.testNg.HomePagee -->
+    </test> <!-- Homepage -->
+    <test started-at="2024-01-25T12:41:24 IST" name="AddToCart" finished-at="2024-01-25T12:41:28 IST" duration-ms="3652">
+      <class name="com.simplilearn.testNg.AddProductToCart">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.simplilearn.testNg.AddProductToCart@446293d]" started-at="2024-01-25T12:41:24 IST" name="start_browser" finished-at="2024-01-25T12:41:27 IST" duration-ms="2626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login()[pri:49, instance:com.simplilearn.testNg.AddProductToCart@446293d]" started-at="2024-01-25T12:41:27 IST" name="test_login" finished-at="2024-01-25T12:41:28 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_add_product_to_cart()[pri:50, instance:com.simplilearn.testNg.AddProductToCart@446293d]" started-at="2024-01-25T12:41:28 IST" name="test_add_product_to_cart" finished-at="2024-01-25T12:41:28 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_product_to_cart -->
+        <test-method signature="test_validate_success_message()[pri:51, instance:com.simplilearn.testNg.AddProductToCart@446293d]" started-at="2024-01-25T12:41:28 IST" name="test_validate_success_message" finished-at="2024-01-25T12:41:28 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validate_success_message -->
+      </class> <!-- com.simplilearn.testNg.AddProductToCart -->
+    </test> <!-- AddToCart -->
+    <test started-at="2024-01-25T12:41:28 IST" name="PlaceOrder" finished-at="2024-01-25T12:41:33 IST" duration-ms="4862">
+      <class name="com.simplilearn.testNg.PlaceOrder">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.simplilearn.testNg.PlaceOrder@33990a0c]" started-at="2024-01-25T12:41:28 IST" name="start_browser" finished-at="2024-01-25T12:41:32 IST" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login()[pri:49, instance:com.simplilearn.testNg.PlaceOrder@33990a0c]" started-at="2024-01-25T12:41:32 IST" name="test_login" finished-at="2024-01-25T12:41:32 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_click_orders()[pri:50, instance:com.simplilearn.testNg.PlaceOrder@33990a0c]" started-at="2024-01-25T12:41:32 IST" name="test_click_orders" finished-at="2024-01-25T12:41:33 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_orders -->
+        <test-method signature="test_getTitle_page()[pri:51, instance:com.simplilearn.testNg.PlaceOrder@33990a0c]" started-at="2024-01-25T12:41:33 IST" name="test_getTitle_page" finished-at="2024-01-25T12:41:33 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+      </class> <!-- com.simplilearn.testNg.PlaceOrder -->
+    </test> <!-- PlaceOrder -->
+  </suite> <!-- RestAssured Test -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddToCart"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.017">
+  <properties />
+  
+  
+            <testcase name="test_validate_success_message" time="0.072" classname="com.simplilearn.testNg.AddProductToCart" />
+                <testcase name="test_add_product_to_cart" time="0.075" classname="com.simplilearn.testNg.AddProductToCart" />
+                <testcase name="test_login" time="0.870" classname="com.simplilearn.testNg.AddProductToCart" />
+      
+</testsuite>
